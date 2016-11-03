@@ -3,7 +3,7 @@
 # WordPress主题OWL中文版-www.wordpressleaf.com
 [![](http://www.wordpressleaf.com/logo.png)](http://www.wordpressleaf.com/)
 <br/><br/> 
-<a href="http://www.wordpressleaf.com/"><img align="right" src="http://www.wordpressleaf.com/logo-app.png" width="248" height="auto"/></a>
+<a href="http://www.wordpressleaf.com/2016_1070.html"><img align="right" src="http://www.wordpressleaf.com/logo-app.png" width="248" height="auto"/></a>
 WordPress主题OWL中文版是一款简约、精致、设计感很强的主题，适合于对视觉效果要求很高的个人时尚博主。它是翻译OWL主题英文版而来，中文版仅供学习所用，你可以前往英文官网购买。
 
 
