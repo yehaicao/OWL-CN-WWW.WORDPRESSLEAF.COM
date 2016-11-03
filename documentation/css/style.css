@@ -1,0 +1,554 @@
+/**
+ * Theme Name: Owl
+ *
+ * Instruction by WWWeb Invader - Version 1.0
+ * Author URL: http://themeforest.net/user/wwwebinvader
+ * 
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+body {
+	background: #f5f5f5;
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	
+}
+
+a:hover,
+a:focus,
+a:visited {
+	text-decoration: none;
+	color: #60bcdd;
+	
+}
+
+.color-text {
+	color: #60bcdd;
+}
+
+.alert-text {
+	color: #60bcdd;
+	margin: 0px 6px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+#page-content-wrapper a {
+	color: #60bcdd;
+	border-bottom: 1px solid #60bcdd;
+	font-weight: bold;
+	-webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#page-content-wrapper a:hover {
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px dotted #000000;
+}
+
+
+section {
+	font-size: 15px;
+	line-height: 26px;
+}
+
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 320px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 320px;
+	border-top: 3px solid #000000;
+    width: 0;
+    height: 100%;
+    margin-left: -320px;
+    overflow-y: auto;
+    background: #000000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 320px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 20px 20px 15px 20px;
+}
+
+
+#page-content-wrapper .container {
+	background: #fff;
+	padding: 0px 40px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -320px;
+}
+
+
+
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+	font-size: 15px;
+	font-weight: bold;
+    line-height: 24px;
+	
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+		 -o-transition: all 0.3s;
+			transition: all 0.3s;
+}
+
+.sidebar-nav li a {
+    display: block;
+    border-bottom: 1px solid #252525;
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 24px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.sidebar-nav li .fa {
+	float:right;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a.active {
+    text-decoration: none;
+    color: #fff;
+	box-shadow: inset 3px 0px 0px #60bcdd;
+    background: #000000;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: auto;
+	width: 320px;
+	text-align: center;
+    font-size: 18px;
+	padding: 10px 0px 0px 0px;
+	
+	position:relative;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a img {
+	width: 100%;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.sidebar-nav > .sidebar-brand a:hover,
+.sidebar-nav > .sidebar-brand a.active {
+    color: #fff;
+    background: none;
+	box-shadow: none;
+}
+
+.sidebar-nav ul {
+	-webkit-padding-start: 0px !important;
+	background: #000000;
+}
+
+.sidebar-nav ul li a:before{
+	content: '\f054';
+	margin-right: 14px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 10px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sidebar-nav ul li a:hover{
+	padding-left: 36px;
+}
+
+
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 320px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 320px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px 50px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+
+
+
+/* menu button */
+
+.menu-button {
+	background: #000000;
+	border-top: 5px solid #000000;
+	color: #fff;
+	padding: 0px 14px 0px 18px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	position:fixed;
+	top: 0px;
+	margin-left: -48px;
+	width: 48px;
+	height: 62px;
+	line-height: 55px;
+	overflow: hidden;
+	z-index: 99999;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-bottom-right-radius: 4px;
+		-webkit-transition: all 0.7s;
+	   -moz-transition: all 0.7s;
+		 -o-transition: all 0.7s;
+			transition: all 0.7s;
+}
+
+.menu-button .fa {
+	margin-right: 15px;
+}
+
+.menu-button:hover {
+	color: #60bcdd;
+	width: auto;
+	text-decoration: none;
+	padding: 0px 30px 0px 30px;
+
+}
+
+.menu-button:hover .fa {
+	margin-right: 20px;
+}
+
+
+@media(max-width:768px) {
+	.menu-button {
+		width: auto;
+		padding: 0px 26px 0px 26px;
+		margin-left: 0px !important;
+	}
+	
+	.menu-button .fa {
+		margin-right: 20px;
+	}
+	
+	.menu-button:hover {
+		padding: 0px 26px 0px 26px;
+	
+	}
+}
+
+
+/* Heading Styles */
+
+section {
+	padding: 30px 0px;
+}
+
+section section {
+	padding: 20px 0px 20px 0px;
+}
+
+h1.title {
+	font-size: 36px;
+	font-weight: 600;
+	padding-bottom: 24px;
+	margin-bottom: 28px;
+	border-bottom: 2px solid #f7f7f7;
+}
+
+
+section ul {
+	margin: 20px 0px;
+	line-height: 30px;
+}
+
+section ul .fa{
+	margin: 0px 6px;
+}
+
+ul.decimal {
+	list-style: decimal;
+}
+
+h2.title {
+	margin-bottom: 32px;
+	position:relative;
+	background: #fff;
+	background:url(../images/second-heading-pat.png) repeat;
+}
+
+h2.title span {
+	background: #fffffe;
+	padding-right: 20px;
+}
+
+h3 {
+	margin: 30px 0px;
+}
+
+.th-td-min-width {
+	min-width: 230px;
+}
+
+
+@media(max-width:768px) {
+	.th-td-min-width {
+		min-width: inherit;
+	}
+}
+
+.license tbody td {
+	height: 82px;
+	vertical-align:middle;
+}
+
+
+
+.title .fa {
+	color: #60bcdd;
+	margin-right: 16px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 26px 0px 40px 0px;
+	overflow:hidden;
+    border: 2px solid #E8E8E8;
+}
+
+.loader-images img {
+
+	width: auto;
+	height: auto;
+}
+
+.float-left {
+	float:left;
+}
+
+.float-right {
+	float:right;
+}
+
+.signature {
+	text-align:center;
+}
+
+.signature img {
+	margin: 60px 0px 30px 0px;
+	width: auto;
+	max-width: 620px;
+	height:auto;
+	border: none;
+	border-radius: none;
+}
+
+.about-me {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	display:inline-block;
+	margin-top: 42px;
+	font-weight: bold;
+}
+
+.about-me a{
+	-webkit-transition: all 0.2s;
+	   -moz-transition: all 0.2s;
+		 -o-transition: all 0.2s;
+			transition: all 0.2s;
+	color: #60bcdd;
+	border-bottom: 1px dotted #60bcdd;
+}
+
+.about-me a:hover{
+	color: #60bcdd;
+	text-decoration: none;
+	border-bottom: 1px solid #60bcdd;
+}
+
+
+
+/* #intro */
+
+
+#intro {
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+
+#intro img {
+	margin: 0px;
+}
+
+#intro .intro-bg {
+	width: 100%;
+	height: 360px;
+	background:url(../images/intro-bg.jpg) no-repeat center center;
+	text-align:center;
+	position:relative;
+	margin-bottom: 120px;
+}
+
+
+
+#intro .intro-bg:before {
+	content:'';
+	background:url(../images/impala-boulevard-intro.png) no-repeat;
+	background-size:cover;
+	width: 720px;
+	height: 433px;
+	margin-left: -360px;
+	left: 50%;
+	position:absolute;
+	bottom: -120px;
+}
+
+#intro .intro-bg:after {
+	content:'';
+	background:url(../images/impala-boulevard-tooltip.png) no-repeat;
+	width: 262px;
+	height: 47px;
+	left: 0;
+	position:absolute;
+	bottom: 0px;
+}
+
+@media(max-width:768px) {
+	#intro .intro-bg {
+		height: 280px;
+		margin-bottom: 40px;
+	}
+		
+	#intro .intro-bg:before {
+		width: 460px;
+		height: inherit;
+		margin-left: -230px;
+		left: 50%;
+		position:absolute;
+		bottom: -60px;
+	}
+	
+	#intro .intro-bg:after {
+		content:'';
+		background:url(../images/impala-boulevard-tooltip.png) no-repeat;
+		width: 262px;
+		height: 47px;
+		left: 0;
+		position:absolute;
+		top: 0px;
+	}
+	
+
+}
+
+.sidebar-nav li.active a {
+	background: #171717;
+}
+
+.textarea-code {
+	width: 100%;
+	border-color: #EFEFEF;
+	margin: 20px 0px;
+	min-height: 300px;
+}
+
+
+.highlight {
+	background: #60bcdd;
+	color: #fff;
+	font-weight: bold;
+	padding: 6px 10px;
+	margin: 10px 0px;
+	display:inline-block;	
+	position:relative;
+}
+
+.highlight a {
+	color: #fff !important;
+	border-bottom: 1px dotted #fff !important;
+}
+
+
+.highlight a:hover {
+	color: #000000 !important;
+	border-bottom: 1px dotted #000000 !important;
+}
+
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 20px 15px;
+}
+
+li img {
+	border: 0px;
+}

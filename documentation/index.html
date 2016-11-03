@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Owl - HTML Instruction</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome CSS & Font-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+        <nav>
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#intro">
+                       	<img src="images/source/logo.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#first">WP Theme Installation<i class="fa fa-wordpress"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#first-01">WordPress Install</a>
+                                </li>
+                                <li>
+                                    <a href="#first-02">Theme Install</a>
+                                </li>
+                                <li>
+                                    <a href="#first-03">Theme Install via FTP</a>
+                                </li>
+                                <li>
+                                    <a href="#first-04">Theme Required Plugins</a>
+                                </li>
+                            </ul>
+                </li>
+                <li>
+                    <a href="#second">Theme Features<i class="fa fa-diamond"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#second-01">Search Bar</a>
+                                </li>
+                                <li>
+                                    <a href="#second-02">Featured Posts Slider Area</a>
+                                </li>
+                                <li>
+                                    <a href="#second-03">Footer Logo Area</a>
+                                </li>
+                                <li>
+                                    <a href="#second-04">Automatic changing of font style</a>
+                                </li>
+                                <li>
+                                    <a href="#second-05">Post Info, Likes System, Share Buttons, Dropcap and Sticky Posts</a>
+                                </li>
+                                <li>
+                                    <a href="#second-06">Facebook Widget Feature</a>
+                                </li>
+                                <li>
+                                    <a href="#second-07">Popup Windows</a>
+                                </li>                                
+                                <li>
+                                    <a href="#second-08">Sidebar & Sticky Sidebar</a>
+                                </li>                                                               
+                                <li>
+                                    <a href="#second-09">Most Discussed Area</a>
+                                </li>                                                                                              
+                                <li>
+                                    <a href="#second-10">Instagram in Footer & Sidebar</a>
+                                </li>                                                                                              
+                                <li>
+                                    <a href="#second-11">Social Icons</a>
+                                </li>                                                                                             
+                                <li>
+                                    <a href="#second-12">Masonry, Grid & Full Layouts</a>
+                                </li>                                                                                             
+                                <li>
+                                    <a href="#second-13">Masonry, Grid & Full Layouts + Sidebar</a>
+                                </li>                                                                                            
+                                <li>
+                                    <a href="#second-14">Post Types</a>
+                                </li>                                                                                            
+                                <li>
+                                    <a href="#second-15">Gallery Types</a>
+                                </li>
+                                <li>
+                                    <a href="#second-16">Custom Pages</a>
+                                </li>
+                                <li>
+                                    <a href="#second-17">Drag & Drop Post Order</a>
+                                </li>
+                            </ul>
+                </li>
+                <li>
+                    <a href="#third">Theme Structure<i class="fa fa-list-ul"></i></a>
+                    <ul>
+                                <li>
+                                    <a href="#third-01">Main Menu</a>
+                                </li>
+                                <li>
+                                    <a href="#third-02">How to Create Post</a>
+                                </li>
+                                <li>
+                                    <a href="#third-03">How to Create Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="#third-04">How to Create Contact Page</a>
+                                </li>
+                                <li>
+                                    <a href="#third-05">How to Create About Page</a>
+                                </li>
+                                <li>
+                                    <a href="#third-06">How to Create Page<br> with Sidebar</a>
+                                </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#fourth">Widgets Structure<i class="fa fa-th-large"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#fourth-01">About Me</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-02">Facebook Like Box</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-03">Featured Video</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-04">Flickr</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-05">Instagram Slider</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-06">Latest Posts</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-07">Recent Tweets</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-08">Social Icons</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-09">Tag Cloud</a>
+                                </li>
+                                <li>
+                                    <a href="#fourth-10">MailChimp Sign-Up Form</a>
+                                </li>
+                            </ul>
+                </li>
+                <li>
+                    <a href="#fifth">Theme Customizer<span class="alert-text">!</span><i class="fa fa-paint-brush"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#fifth-01">General Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-02">Logo and Header Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-03">Top Bar Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-04">Featured Area Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-05">Author Area Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-06">Post Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-07">Page Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-08">Social Media Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-09">Footer Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#fifth-10">Colors Settings</a>
+                                </li><!--
+                                <li>
+                                    <a href="#fifth-11">Custom CSS</a>
+                                </li>-->
+                            </ul>
+                </li>
+                <li>
+                    <a href="#sixth">Theme Plugins<i class="fa fa-plug"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#sixth-01">Included Plugins</a>
+                                </li>
+                                <li>
+                                    <a href="#sixth-02">Recommended Plugins</a>
+                                </li>							
+                            </ul>
+                </li>
+                <li>
+                    <a href="#seventh">Child Theme<i class="fa fa-toggle-on"></i></a>
+                </li>
+                <li>
+                    <a href="#eighth">Language Files (MO/PO)<i class="fa fa-language"></i></a>
+                </li>
+                <li>
+                    <a href="#ninth">Sources & Credits<i class="fa fa-folder"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#ninth-01">Source & Credits Table</a>
+                                </li>
+                                <li>
+                                    <a href="#ninth-02">Note (Thank you!)</a>
+                                </li>
+                            </ul>
+                </li>
+                
+                
+              <span class="about-me">v1.0 by <a href="http://themeforest.net/user/wwwebinvader">WWWeb Invader</a></span>
+            </ul>
+            
+          </nav> 
+          
+        </div>
+        <a href="#menu-toggle" class="menu-button" id="menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container"><!-- or container-fluid -->
+                <div class="row">
+                    <div class="col-lg-12">
+                    
+                    <section id="intro">
+						<a href="images/00-1.jpg"><img src="images/00-1.jpg" alt=""></a><br>
+                        <br>
+                        <p>
+                        <strong class="color-text">Owl</strong> - WordPress theme for blogging, magazine, news, editorial, photography, review or other goals website. This theme has a responsive layout, you can easy to customize it and <strong>Create your Awesome Website</strong>.
+						<br>
+                        <hr>
+						<p>
+						<ul>
+						<li>Responsive Design</li>
+						<li>Mobile/Tablet Ready</li>                        
+						<li><img src="https://db.tt/BCddSDCT" alt="Hot & New Feature">&nbsp;&nbsp;Drag & Drop Posts and other elements Order</li>
+						<li><img src="https://db.tt/BCddSDCT" alt="Hot & New Feature">&nbsp;&nbsp;Like System</li>
+						<li><img src="https://db.tt/BCddSDCT" alt="Hot & New Feature">&nbsp;&nbsp;Dropcap, Font Awesome, Columns Shortcodes</li>                        
+						<li><strong>Theme Options Powered by WordPress Customizer</strong></li>
+						<li><strong>Tons of customizable color options</strong></li>
+						<li><strong>Easy to Hide & Show All Main Elements</strong></li>
+						<li>Contact Form 7 Support</li>
+						<li>Demo Content File Included XML</li>
+						<li>Beautiful Featured Slider</li>
+							<ul>
+                            <li><a href="http://wp.wwwebinvader.com/Owl/?featured=1" title="Alternative Slider">Alternative Slider</a></li>
+							<li><a href="http://wp.wwwebinvader.com/Owl/?featured=2" title="One Slide Slider">One Slide Slider</a></li>
+							<li><a href="http://wp.wwwebinvader.com/Owl/?featured=3" title="Three Slides Slider (Full width)">Three Slides Slider (Full width)</a></li>
+							</ul>
+						<li>3 Different Blog Layouts</li>
+							<ul>
+                            <li><a href="http://wp.wwwebinvader.com/Owl/?home_layout=masonry" title="Masonry Blog Layout">Masonry Blog Layout</a></li>
+                            <li><a href="http://wp.wwwebinvader.com/Owl/?home_layout=full" title="Full Blog Layout">Full Blog Layout</a></li>
+							<li><a href="http://wp.wwwebinvader.com/Owl/?home_layout=grid" title="Grid Layout">Grid Layout</a></li>
+                            <li><a href="http://wp.wwwebinvader.com/Owl/?home_layout=masonry&home_sidebar=true" title="Masonry Blog Layout + Sidebar">Masonry Blog Layout + Sidebar</a></li>
+							<li><a href="http://wp.wwwebinvader.com/Owl/?home_layout=masonry&home_sidebar=true" title="Full Blog Layout + Sidebar">Full Blog Layout + Sidebar</a></li>
+							<li><a href="http://wp.wwwebinvader.com/Owl/?home_layout=masonry&home_sidebar=true" title="Grid Layout + Sidebar">Grid Layout + Sidebar</a></li>
+							</ul>                           
+                        <li>About Author Area</li>
+                        <li>Most Discussed Area</li>
+						<li>Full Width Instagram feed in footer with Custom Styles</li>
+						<li>Post Formats</li>
+							<ul>
+							<li><a href="http://wp.wwwebinvader.com/Owl/2015/06/27/just-a-standard-post-with-text/" title="Standard Posts">Standard Posts</a></li>
+							<li><a href="http://wp.wwwebinvader.com/Owl/2015/06/30/simple-smart-quote-post/" title="Quote Posts">Quote Posts</a></li>
+							<li>Gallery Posts:</li>
+								<ul>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/06/30/gallery-post-with-fixed-height-slider/" title="Slider Fixed Height">Slider Fixed Height</a></li>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/06/30/gallery-post-with-auto-height-slider/" title="Slider Auto Height">Slider Auto Height</a></li>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/06/30/gallery-post-with-3-columns-grid/" title="Grid 3 Columns">Grid 3 Columns</a></li>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/06/30/gallery-post-with-4-columns-grid/" title="Grid 4 Columns">Grid 4 Columns</a></li>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/06/30/gallery-post-with-3-columns-grid-and-large-first-image/" title="Large Image + Grid 3 Columns">Large Image + Grid 3 Columns</a></li>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/06/30/gallery-post-with-4-columns-grid-and-large-first-image/" title="Large Image + Grid 4 Columns">Large Image + Grid 4 Columns</a></li>
+								</ul>
+							<li>Video Posts:</li>
+								<ul>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/07/01/lovely-youtube-video-post/" title="YouTube">YouTube</a></li>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/07/01/popular-vimeo-video-post/" title="Vimeo">Vimeo</a></li>
+								<li>Else</li>
+								</ul>
+							<li>Audio Posts:</li>
+								<ul>
+								<li><a href="http://wp.wwwebinvader.com/Owl/2015/07/02/simple-hosted-audio-post/" title="SoundCloud">SoundCloud</a></li>
+								<li>Else</li>
+								</ul>
+							<li><a href="http://wp.wwwebinvader.com/Owl/2015/07/02/the-curabitur-ullaper-ultricies-nisi-nam-dui-etiam-of-rhoncus-4/" title="Sticky Posts Support">Sticky Posts Support</a></li>
+							</ul>
+                        <li><strong>Popup Image on Post, Page, Gallery Options</strong></li>
+						<li>9 Custom Widgets + 1 <a href="https://wordpress.org/plugins/mailchimp-for-wp/">MailChimp for WordPress</a> Widget Design, so you can display a beautiful newsletter widget:</li>
+							<ul>
+							<li>About Me</li>
+							<li>Facebook Like Box + Image Cover with Title</li>
+							<li>Featured Video</li>
+							<li>Flickr</li>
+							<li>Instagram Slider</li>
+							<li>Latest Posts</li>
+							<li>Recent Tweets</li>
+							<li>Social Icons</li>
+							<li>Tag Cloud</li>
+							<li>MailChimp Sign-Up Form</li>
+							</ul>
+						<li>Gallery Page/Post Options</li>
+							<ul>
+							<li><a href="http://wp.wwwebinvader.com/Owl/gallery-page/" title="Tiled Gallery">Tiled Gallery</a></li>
+							<li><a href="http://wp.wwwebinvader.com/Owl/squared-gallery-page/" title="Squared Gallery">Squared Gallery</a></li>
+							<li><a href="http://wp.wwwebinvader.com/Owl/circle-gallery-page/" title="Circle Gallery">Circle Gallery</a></li>
+							</ul>
+						<li>Sticky Navigation</li>
+						<li>Full Width/Sidebar Page Template</li>
+						<li>Sticky Sidebar Option</li>
+						<li>Sidebar Supports</li>
+							<ul>
+							<li>on Homepage</li>
+							<li>on Posts</li>
+							<li>on Archives</li>
+							</ul>
+						<li>Social Media Icons in Header and Footer</li>
+						<li>Footer Full Size Logo with Background Option</li>
+						<li>Zoom & Border Image Effects Option</li>
+						<li>Retina Logo Support (For Full Retina you should use: <a href="https://wordpress.org/plugins/wp-retina-2x/" title="WP Retina 2x">WP Retina 2x</a> or else)</li>
+						<li>Related Post inside post</li>
+						<li>Next/Prev Post Navigation</li>
+						<li>Child Theme Ready</li>
+						<li>Custom CSS Area in Theme Customizer</li>
+						<li>Translation Ready (MO/PO Files)</li>
+						<li>HTML5, CSS3, JQuery</li>
+						<li>Works with WP 4.3+</li>
+						<li>WordPress dropdown support</li>
+						<li>Online HTML Documentation</li>
+						</ul>
+						</p>
+                        <br>
+						<br>
+						<strong>Scroll Down and read more about This Great WordPress Theme</strong>
+
+                    </section>
+                    
+                    <!-- =============================/ 1 /============================= -->
+                    
+                    <section id="first">
+                    <h1 class="title"><i class="fa fa-wordpress"></i>WP Theme Installation</h1>
+                    	<section id="first-01">
+                                <p>
+                                <h2 class="title"><span>WordPress Install</span></h2>
+                                Hey there!  <br>
+                                If you have not yet installed wordpress download it from the link below by clicking on <strong>"Download Wordpress"</strong>.<br>
+                                <a href="http://codex.wordpress.org/Installing_WordPress">Installing WordPress Link</a> - * Instruction is located the same link!
+                                <a href="images/01-0.jpg"><img src="images/01-0.jpg" alt=""></a><br>
+                                <a href="images/01-1.jpg"><img src="images/01-1.jpg" alt=""></a><br>
+                                <strong>Famous five minute WordPress installation</strong> will bring you positive feedback on this CMS<br>
+                                <br>
+                                If you have installed, or was installed WP, <a href="#first-02" class="scroll">go to the next step.</a>
+                                <p></p>
+                        </section><!--/ #first-01 -->
+                        
+                        
+                    	<section id="first-02">
+                                <p>
+                                <h2 class="title"><span>Theme Install</span></h2>
+                                <strong>This is the first and <span class="color-text">easiest</span> way to install the theme.</strong> <br>
+                                
+                                <ul class="decimal">
+                                    <li>Go to <strong>Appearance <i class="fa fa-long-arrow-right"></i> Themes.</strong></li>
+                                    <li>Click on <strong>Add New</strong> at the top.</li>
+                                    <li>Click on <strong>Upload Theme</strong> at the top.</li>
+                                    <li><strong>Upload</strong> "owl.zip" archive file via web interface</li>
+                                    <li><strong>Upload</strong> "owl-child.zip" archive file via web interface too, if you want customize your theme safely.</li>
+                                    <li><strong>Activate</strong> newly main installed theme</li>
+                                </ul>
+								
+                                <a href="images/01-2.jpg"><img src="images/01-2.jpg" alt=""></a>
+                                <a href="images/01-3.jpg"><img src="images/01-3.jpg" alt=""></a>
+                                
+                                <p></p>
+                        </section><!--/ #first-02 -->
+                        
+                        
+                        
+                        <section id="first-03">
+                                <p>
+                                <h2 class="title"><span>Theme Install via FTP</span></h2>
+                                <strong>This is the second way to install the theme.</strong> <br>
+                                
+                                <ul class="decimal">
+                                    <li>Unzip "owl.zip" on your Desktop. You should get folder called "owl"</li>
+                                    <li>If you want to customize your theme safely unzip "owl-child.zip" on your Desktop too. You should get folder called "owl-child"</li>
+                                    <li>Sign in to your hosting using your favorite FTP client.</li>
+                                    <li>Navigate to <strong>/wp-content/themes/</strong> and upload "owl" and "owl-child" folder.</li>
+                                    <li>Open WordPress <strong>Dashboard</strong> and go to <strong>Appearance</strong> <i class="fa fa-long-arrow-right"></i> <strong>Themes</strong> and activate owl main theme from there.</li>
+                                </ul>
+                                
+                                <p></p>
+                        </section><!--/ #first-03 -->
+
+
+
+                        <section id="first-04">
+                                <p>
+                                <h2 class="title"><span>Theme Required Plugins</span></h2>
+                                <strong>Post-installation issues.</strong> <br>
+                                <br>
+                                <p>
+                                After installing the theme you will see window with a message about installing the required plug-ins. <strong>Don't ignore it, <span class="color-text">Begin installing plugins</span> and <span>Activate all of them</span></strong>
+                                <br>
+                                <a href="images/01-4.jpg"><img src="images/01-4.jpg" alt=""></a><br>
+                                <a href="images/01-5.jpg"><img src="images/01-5.jpg" alt=""></a><br>
+                                <a href="images/01-6.jpg"><img src="images/01-6.jpg" alt=""></a><br>
+                                
+                                </p>
+                                
+                            
+                        </section><!--/ #first-04 -->
+
+
+                    </section><!--/ #first -->
+
+
+                    <!-- =============================/ 2 /============================= -->
+
+                    <section id="second">
+                    	
+                        <h1 class="title"><i class="fa fa-diamond"></i>Theme Features</h1>
+                        <p>Here you will see more detail about what I mentioned in the description list.</p>
+                        
+                        <section id="second-01">
+                                   <h2 class="title"><span>Search Bar</span></h2>
+                                   
+                                   <a href="images/02-0.jpg"><img src="images/02-0.jpg" alt=""></a>
+                                   <ul class="decimal">
+											<li><strong>Always on Top</strong> - fixed positions, always with the menu, there is no problem when you scroll.</li>
+                                            <li><strong>Sliding Full Width Search on mobile version</strong> - easy to use on tablet & mobile devices</li>
+                                   </ul>
+                        </section><!--/ #second-01 --> 
+                        
+                        <section id="second-02">
+                                     <h2 class="title"><span>Featured Posts Slider Area</span></h2>
+                                            <p>
+                                            <ul class="decimal">
+                                                <li><strong>Alternative Slider</strong></li>
+                                                <li><strong>One Slide Slider</strong></li>
+                                                <li><strong>Three Slide Slider (Full Screen)</strong></li>
+                                            </ul>
+                                            </p>
+                                    <a href="images/02-4.jpg"><img src="images/02-4.jpg" alt=""></a>
+                                    <a href="images/02-4-1.jpg"><img src="images/02-4-1.jpg" alt=""></a>
+                                    <a href="images/02-5.jpg"><img src="images/02-5.jpg" alt=""></a>
+                        </section><!--/ #second-02 --> 
+                        
+                        <section id="second-03">
+                                     <h2 class="title"><span>Footer Logo Area</span></h2>
+                                            <p>
+                                            <ul class="decimal">
+                                            <li><strong>Dark & Light Logo</strong> - you can easy upload your logo and it's will be looks great.</li>
+                                            <li><strong>Footer BG Images</strong> - set different image at footer area.</li>
+                                           </ul>
+                                            
+                                            </p>
+                                    <a href="images/02-1.jpg"><img src="images/02-1.jpg" alt=""></a>
+                        </section><!--/ #second-03 --> 
+                        
+                        
+                        
+                        <section id="second-04">
+                                     <h2 class="title"><span>Automatic changing of font style</span></h2>
+                                            <p>
+                                            <strong>and, from, &</strong> - this small words has different font style (italic), this occurs automatically, you do not need to worry about it. <br>
+                                            <span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;You can replace english words on your native language words when you will create yours file of translate (MO/PO)</span>
+                                            </p>
+                                    <a href="images/02-6.jpg"><img src="images/02-6.jpg" alt=""></a>
+                        </section><!--/ #second-04 -->
+                        
+                        
+                        <section id="second-05">
+                                     <h2 class="title"><span>Post Info, Likes System, Share Buttons, Dropcap and Sticky Posts</span></h2>
+                                            <p>
+                                            This theme support all main features of posts, you can easy hide/show all of this options.</p>
+                                    <a href="images/02-7.jpg"><img src="images/02-7.jpg" alt=""></a>
+                   		</section><!--/ #second-05 -->
+                        
+                        
+                        
+                        <section id="second-06">
+                                     <h2 class="title"><span>Facebook Widget Feature</span></h2>
+                                            <p>
+                                            Set your custom text, image url and you will see cover image, all to get your own style and not to spoil the design of the site. <strong>Also is you need widget without cover only click on appropriate checkbox</strong>.
+                                            </p>
+                                    <a href="images/02-8.jpg"><img src="images/02-8.jpg" alt=""></a>
+                   		</section><!--/ #second-06 -->
+                        
+                        <section id="second-07">
+                                     <h2 class="title"><span>Popup Windows</span></h2>
+                                            <p>
+                                            All images of posts now showng in Popup Windows (Magnific Popup), great solution to show more for your visitors. Also you can disable Popup Windows on Pages, on Gallery Pages and on Posts in general.
+                                            </p>
+                                    <a href="images/02-9.jpg"><img src="images/02-9.jpg" alt=""></a>
+                   		</section><!--/ #second-07 -->
+                        
+                        <section id="second-08">
+                                     <h2 class="title"><span>Sidebar & Sticky Sidebar</span></h2>
+                                            <p>
+                                            You can activate sidebar on Home Page, Post Pages and Archives Pages, with any layout you want.
+                                            <br>
+                                            <br>
+                                            <span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;Sticky Sidebar</span>  -  it's really great feature. Now you will see your sidebar in any case, scroll your content and sidebar will follow you. You can give users chance see important information longer.
+                                            </p>
+                                    <a href="images/02-10.jpg"><img src="images/02-10.jpg" alt=""></a>
+                   		</section><!--/ #second-08 -->
+                        
+                        <section id="second-09">
+                                     <h2 class="title"><span>Most Discussed Area</span></h2>
+                                            <p>
+                                            Now you can easy show most discussed area on main or other pages. Activate it in WP Customizer and you will see this beatiful block with your most popular posts. 
+                                            </p>
+                                    <a href="images/02-10-1.jpg"><img src="images/02-10-1.jpg" alt=""></a>
+                   		</section><!--/ #second-09 -->
+                        
+                        <section id="second-10">
+                                     <h2 class="title"><span>Instagram in Footer & Sidebar</span></h2>
+                                            <p>
+                                            Do you love Instagram? Share your images in footer area. You can sidebar widgets too - Slider, Thumbnails, Slider with text inside.
+                                            </p>
+                                    <a href="images/02-11.jpg"><img src="images/02-11.jpg" alt=""></a>
+                                    <a href="images/02-12.jpg"><img src="images/02-12.jpg" alt=""></a>
+                   		</section><!--/ #second-10 -->
+                        
+                        <section id="second-11">
+                                     <h2 class="title"><span>Social Icons</span></h2>
+                                            <p>
+                                            Do you love Instagram? Share your images in footer area. You can sidebar widgets too - Slider, Thumbnails, Slider with text inside.
+                                            </p>
+                                    <a href="images/02-13.jpg"><img src="images/02-13.jpg" alt=""></a>
+                   		</section><!--/ #second-11 -->
+                        
+                        <section id="second-12">
+                                     <h2 class="title"><span>Masonry, Grid & Full Layouts</span></h2>
+                                            <p>
+                                            3 Different Layouts for you website. Also you may activate on layout for main page, and different layout for all archive pages. You can easy do it, only choose optionts via theme WP Customizer and you get this result:
+                                            </p>
+                                    <a href="images/02-14.jpg"><img src="images/02-14.jpg" alt=""></a>
+                   		</section><!--/ #second-12 -->
+                        
+                        <section id="second-13">
+                                     <h2 class="title"><span>Masonry, Grid & Full Layouts + Sidebar</span></h2>
+                                            <p>
+                                            Activate sidebar if you need  and you will see this result:
+                                            </p>
+                                    <a href="images/02-15.jpg"><img src="images/02-15.jpg" alt=""></a>
+                   		</section><!--/ #second-13 -->
+                        
+                        <section id="second-14">
+                                     <h2 class="title"><span>Post Types</span></h2>
+                                            <p>
+                                            Activate sidebar if you need  and you will see this result:
+                                            </p>
+                                            <ul class="decimal">
+                                                <li>Standard</li>
+                                                <li>Gallery                                                
+                                                    <ul>
+                                                        <li>Slider Fixed Height</li>
+                                                        <li>Slider Auto Height</li>
+                                                        <li>Grid 3 Columns</li>
+                                                        <li>Grid 4 Columns</li>
+                                                        <li>Large + Grid 3 Columns</li>
+                                                        <li>Large + Grid 4 Columns</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Video
+                                                	<ul>
+                                                        <li>YouTube</li>
+                                                        <li>Vimeo</li>
+                                                        <li>Else</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Quote</li>
+                                                <li>Audio
+                                                	<ul>
+                                                        <li>SoundCloud</li>
+                                                        <li>Else</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <br>
+                                            
+                                            
+                                    <a href="images/02-16.jpg"><img src="images/02-16.jpg" alt=""></a>
+                   		</section><!--/ #second-14 -->
+                        
+                        <section id="second-15">
+                                     <h2 class="title"><span>Gallery Types</span></h2>
+                                            <p>
+                                            You can set page with any kind of gallery: 
+                                            </p>
+                                            <ul class="decimal">
+                                            	<li>Tiled Gallery</li>
+                                                <li>Squared Gallery</li>
+                                                <li>Circle Gallery</li>
+                                            </ul>
+                                    <a href="images/02-17.jpg"><img src="images/02-17.jpg" alt=""></a>
+                   		</section><!--/ #second-15 -->
+                        
+                        <section id="second-16">
+                                     <h2 class="title"><span>Custom Pages</span></h2>
+                                            <p>
+                                            Now on demo site you can see About Me, Contact Us, Pages without Sidebar and more. All of this pages you can easy create only with theme options and plugins.
+                                            </p>
+                                    <a href="images/02-18.jpg"><img src="images/02-18.jpg" alt=""></a>
+                   		</section><!--/ #second-16 -->
+                        
+                        <section id="second-17">
+                                     <h2 class="title"><span>Drag & Drop Post Order</span></h2>
+                                            <p>
+                                            Now you can easy drag & Drop all items in admin panel, order your posts and other elements via mouse usage only. Only activate what do you want to order with Drag & Drop function.
+                                            </p>
+                                    <a href="images/02-19.jpg"><img src="images/02-19.jpg" alt=""></a>
+                                    <a href="images/02-20.jpg"><img src="images/02-20.jpg" alt=""></a>
+                   		</section><!--/ #second-17 -->
+                        
+                 </section><!--/ #second -->
+                    
+                 <!-- =============================/ 3 /============================= -->
+                    
+				<section id="third">
+                    	
+                        <h1 class="title"><i class="fa fa-list-ul"></i>Theme Structure</h1>
+                        <p>Below you can see the structure of the Main Page. All about how to choose Featured Slider and more you can see in <a href="#fifth">Theme Customizer Category</a>.
+                        
+                        </p>
+                        
+                    
+                        <div class="row">
+                        <div class="col-md-5 col-sm-12"><a  href="images/03-0.jpg"><img src="images/03-0.jpg" alt=""></a></div>
+                        
+                        
+                        <div class="col-md-7 col-sm-12">
+                        	
+                            <h2 class="title"><span>Social Icons in Header & Footer</span></h2>
+                            <p>All social links are set from <strong>Appearance <i class="fa fa-long-arrow-right"></i> Customize <i class="fa fa-long-arrow-right"></i> Social Media Settings</strong>
+                            </p>
+                            
+                            <h2 class="title"><span>Main Menu</span></h2>
+                            <p>Manage menu is very simple, just using <strong>Drag &amp; Drop</strong>, you can create submenu from items ( pages/links/categories ). <br>
+                        For more information about creating &amp; managing menu, you can view the following link: <a href="http://codex.wordpress.org/WordPress_Menu_User_Guide">WordPress Menu User Guide</a> - <strong>By default you will see notice.</strong>
+                            </p>
+                            
+                            <h2 class="title"><span>Search Area</span></h2>
+                            <p>You can see large search bar on mobile version and simple search on desctop version.</p>
+                            
+                            <h2 class="title"><span>Logo Area</span></h2>
+                            <p>You can set Logo (and Logo for Retina) from: <br><strong>Appearance <i class="fa fa-long-arrow-right"></i> Customize <i class="fa fa-long-arrow-right"></i> Logo and Header Settings</strong>
+                            </p>
+                            
+                            <h2 class="title"><span>Featured Area</span></h2>
+                            <p>Choose your favorite slider and set options from: <br><strong>Appearance <i class="fa fa-long-arrow-right"></i> Customize <i class="fa fa-long-arrow-right"></i> Featured Area Settings</strong>
+                            </p>
+                            
+                            <h2 class="title"><span>Content Area</span></h2>
+                            <p>You can choose Masonry, Grid or Full Layout (with or without sidebar) and result you will see in Content Area. And you may set different layouts for home and archive pages.
+                            </p>
+                            
+                            <h2 class="title"><span>Sidebar</span></h2>
+                            <p>This Theme Support 9 Widgets and MailChimp Designed Widget (Skin for widget).</p>
+                            
+                            <h2 class="title"><span>Footer Widgets</span></h2>
+                            <p>You can set widgets in footer in three columns, or disable footer widget area in general.</p>
+                            
+                            <h2 class="title"><span>Most Discussed Area</span></h2>
+                            <p>You can activate Most Discussed Area on home and other pages. You will see most popular posts in slider.</p>
+                            
+                            <h2 class="title"><span>Footer Logo & Footer Image</span></h2>
+                            <p>Upload your Logo and choose Background from: <br><strong>Appearance <i class="fa fa-long-arrow-right"></i> Customize <i class="fa fa-long-arrow-right"></i> Footer Settings</strong> <br><br>Upload Retina Size Logo to be always in the best quality.</p>
+                            
+                            <h2 class="title"><span>Footer Widgets</span></h2>
+                            <p>Add widget to all three columns from <br><strong>Appearance <i class="fa fa-long-arrow-right"></i> Widgets</strong></p>
+                            
+                            <h2 class="title"><span>Instagram Footer</span></h2>
+                            <p>Setup Instagram Widget in Footer Intagram Area and choose needed settings: 
+                            <ul>
+                            	<li>Number of images to show:  <strong>10</strong></li>
+                                <li>Template:  <strong>Thumbnails - Without Border</strong></li>
+                                <li>Number of Columns:  <strong>5</strong></li>
+                            </ul>
+                            </p>
+                            
+                            <h2 class="title"><span>Copyrights</span></h2>
+                            <p>Add you own info from: <br><strong>Appearance <i class="fa fa-long-arrow-right"></i> Customize <i class="fa fa-long-arrow-right"></i> Footer Settings</strong></p>
+                        </div>
+                        </div><!--/.row -->   
+                        
+                        <section id="third-01">
+                                
+                                <h2 class="title"><span>Main Menu</span></h2>
+                                
+                               	<p>This theme support a multi-level dropdown menu that can be set from <strong>Appearance <i class="fa fa-long-arrow-right"></i> Menu</strong>
+                                
+                                
+                                </p>
+                                <ul class="decimal">
+                                    <li>Create your own multilevel menu using this guide <a href="http://codex.wordpress.org/WordPress_Menu_User_Guide">WordPress_Menu_User_Guide</a></li>
+                                    <li>Save your menu.</li>
+                                    <li>Go to <strong>Appearance <i class="fa fa-long-arrow-right"></i> Menus <i class="fa fa-long-arrow-right"></i> Manage Locations</strong></li>
+                                    <li>Select your created menu from list</li>
+                                    <li>Save changes in Manage Locations</li>
+                                </ul>
+                                
+                                <a href="images/03-1.jpg"><img src="images/03-1.jpg" alt=""></a>
+                                <a href="images/03-2.jpg"><img src="images/03-2.jpg" alt=""></a>
+                        </section><!--/ #third-01 --> 
+                        
+                        <section id="third-02">
+                                
+                                <h2 class="title"><span>How to Create Post</span></h2>
+                                
+                               	<p>This theme support all trending post formats.
+                                <br>
+                                <strong>Now you can use all perfomance of your wordpress</strong>, view of type options has changed and has become much easier, clearer and more comfortable.                                </p>                                
+                                <a href="images/03-3.jpg"><img src="images/03-3.jpg" alt=""></a>
+                                <a href="images/03-4.jpg"><img src="images/03-4.jpg" alt=""></a>
+                        </section><!--/ #third-02 --> 
+                        
+                        <section id="third-03">
+                                
+                                <h2 class="title"><span>How to Create Gallery</span></h2>
+                                
+                               	<p>Theme support <strong>Tiled, Cirle and Square</strong> Gallery Types.
+                                </p>
+                                <p>To create a new gallery post/page:</p>
+                                <ul class="decimal">
+                                    <li>Go to <strong>Pages <i class="fa fa-long-arrow-right"></i> Add New</strong></li>
+                                    <li>Enter your page title.</li>
+                                    <li>Enter your page content.</li>
+                                    <li>To create galley inside page/post content:
+                                    
+                                    	<ul>
+                                        	<li>Click on <strong>Add Media</strong> button</li>
+                                            <li>In opened modal window choose <strong>Create Gallery</strong></li>
+                                            <li>Upload or Choose Images you want</li>
+                                            <li>Apply seting in right sidebar after you choose images</li>
+                                            <li>Click on Insert Gallety button</li>
+                                            <li>After insert you may delete or edit your gallery</li>
+                                        </ul>
+                                    
+                                    
+                                    </li>
+                                    
+                                    
+                                    <li>When you are done, click "Publish" button to save the page.</li>
+                                </ul>
+                                
+                                <a href="images/03-5.jpg"><img src="images/03-5.jpg" alt=""></a>
+                                <a href="images/03-6.jpg"><img src="images/03-6.jpg" alt=""></a>
+                                <a href="images/03-7.jpg"><img src="images/03-7.jpg" alt=""></a>
+                                
+                                <span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;If you want create gallery in Tiled Style like on Demo Gallery Page you must install and activate Tiled Galleries plugin and choose this settings from Gallery Setting when you will add gallery inside page or post.</span>
+                        </section><!--/ #third-03 --> 
+                        
+                        <section id="third-04">
+                                
+                                <h2 class="title"><span>How to Create Contact Page</span></h2>
+                                
+                               	<span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;Please install required plugins before: Google Maps Plugin, Contact Form 7, Column Shortcodes</span>							
+                                <p>
+                                After you intall plugins you may create Contact Page with Contact Form and Google Map (Colored or Gray).</p>
+                                
+                                <ul class="decimal">
+                                    <li>Go to <strong>Contact <i class="fa fa-long-arrow-right"></i> Contact Forms</strong>
+                                    	<ul>
+                                        	<li>Add New Form or use Default</li>
+                                            <li>Edit Contact Form if you need (click on name)</li>
+                                            <li>Copy and Past Contact Form Shortcode on your Contact Page</li>
+                                        </ul>                                    
+                                    </li>
+                                    <li>Go to <strong>Google Maps <i class="fa fa-long-arrow-right"></i> All Maps</strong>
+                                    	<ul>
+                                        	<li>Add New Google Map with your own settings</li>
+                                            <li>Set location and other features and required fields</li>
+                                            <li>Copy and Past Google Map Shortcode on your Contact Page</li>
+                                        </ul>                                    
+                                    </li>
+                                    <li>Go to your Page and add needed info, you can shoose columns shortcodes for your content.</li>
+                               </ul>
+                                                               
+                                <a href="images/03-8.jpg"><img src="images/03-8.jpg" alt=""></a>
+                                <a href="images/03-9.jpg"><img src="images/03-9.jpg" alt=""></a>
+                                <a href="images/03-10.jpg"><img src="images/03-10.jpg" alt=""></a>
+                        </section><!--/ #third-04 -->  
+                        
+                        <section id="third-05">
+                                
+                                <h2 class="title"><span>How to Create About Page</span></h2>
+                                
+                               	<span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;Please install required plugins before: Column Shortcodes</span>							
+                                                                
+                                <ul class="decimal">
+                                    <li>Create simple page</li>
+                                    <li>Add needed columns with <strong>Column Shortcodes</strong></li>
+                                    <li>Add images and info about you</li>
+                               </ul>
+                                                               
+                                <a href="images/03-11.jpg"><img src="images/03-11.jpg" alt=""></a>
+                                <a href="images/03-12.jpg"><img src="images/03-12.jpg" alt=""></a>
+                        </section><!--/ #third-05 -->  
+                        
+                        <section id="third-06">
+                                
+                                <h2 class="title"><span>How to Create Page with Sidebar</span></h2>
+                                                          
+                                <ul class="decimal">
+                                    <li>Create simple page</li>
+                                    <li>Choose Template: <strong>Page with Sidebar</strong></li>
+                                    <li>Publish it :)</li>
+                               </ul>
+                                <a href="images/03-13.jpg"><img src="images/03-13.jpg" alt=""></a>
+                        </section><!--/ #third-06 -->   
+                                          
+                 </section><!--/ #third -->         
+                
+                
+                 <!-- =============================/ 4 /============================= -->
+
+                    <section id="fourth">
+                    	
+                        <h1 class="title"><i class="fa fa-th-large"></i>Widgets Structure</h1>
+                        <p>
+                        You can find <strong>9 Custom Widgets + 1 MailChimp Widget Design (Cover for widget)</strong>, all Custom Widgets called "<i>Owl - </i>".<br>
+                        All standart widgets work perfect too, so you can use categories and others widgets so easy.
+                        <span class="highlight">*&nbsp;&nbsp;-&nbsp;&nbsp;For example standard Categories Widget has slide down effect on child categories. </span>
+                        </p>
+                        
+                        <a href="images/04-0.jpg"><img src="images/04-0.jpg" alt=""></a>
+                        <br>
+                        <span class="highlight">*&nbsp;&nbsp;-&nbsp;&nbsp;Read more below. </span>
+                        </p>
+                               
+                        <h2 class="title"><span>Custom Widgets</span></h2>
+                        <p>Go to <strong>Appearance <i class="fa fa-long-arrow-right"></i> Widgets</strong> and use the drag and drop interface to insert widgets into the desired widget areas.</p>
+							<section id="fourth-01">   
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-1.jpg"><img src="images/04-1.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - About Me</h3>
+                                        <p>
+                                        About Me Widget include this options:
+                                        <ul class="decimal">
+                                        	<li>Title</li>
+                                            <li>Image URL</li>
+                                            <li>About me text</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div><!--/.row -->
+                            </section><!--/ #fourth-01 -->     
+                            <hr>
+                            <section id="fourth-02">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-2.jpg"><img src="images/04-2.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - Facebook Like Box</h3>
+                                        <p>
+                                       	Facebook widget allows you to show a facebook likebox, all settings like on original facebook widget and set Cover.
+                                        To setup cover on you Facebook Widget you should:
+                                        <ul class="decimal">
+                                        	<li>Cover Image URL</li>
+                                            <li>Cover Title Text (you may use HTML)</li>
+                                            <li>Show Cover Image & Text (set checkbox)</li>
+                                        </ul>
+                                        
+                                        </p>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-02 -->
+                               <hr>
+                               <section id="fourth-03">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-3.jpg"><img src="images/04-3.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - Featured Video</h3>
+                                        <p>
+                                       	Add your favorite video in Widget Areas via this options:
+                                        <ul class="decimal">
+                                        	<li>Title</li>
+                                            <li>Video Link</li>
+                                            <li>Height</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-03 -->
+                               <hr>
+                               <section id="fourth-04">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-4.jpg"><img src="images/04-4.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - Flickr</h3>
+                                        <p>
+                                        Flickr widget allows you to add recent images uploaded to your flickr account. You can customize to your Flickr ID, number of photos to show and the display order (latest/random) from the widget settings. To find your Flickr ID, use <a href="http://idgettr.com">http://idgettr.com</a>
+                                        </p>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-04 -->
+                               <hr>
+                               <section id="fourth-05">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-5.jpg"><img src="images/04-5.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - Instagram Slider</h3>
+                                        <p>
+                                       	Instagram Widgets use <strong>Owl Instagram Widget Plugin</strong>. <br>
+                                        Add widget in needed area and set this options:
+                                        <ul class="decimal">
+                                        	<li>Title</li>
+                                            <li>Search Instagram for: Username/Hashtag</li>
+                                            <li>Source: Instagram/WP Media Library</li>
+                                            <li>Save and Display Images from Media Library: Yes/No</li>
+                                            <li>Number of images to show</li>
+                                            <li>Check for new images every</li>
+                                            <li>Template
+                                            	<ul>
+                                                	<li>Slider - Normal</li>
+                                                    <li>Slider - Overlay Text</li>
+                                                    <li>Thumbnails</li>
+                                                    <li>Thumbnails - Without Border</li>
+                                                </ul>
+                                            </li>
+                                            <li>Image size
+                                            	<ul>
+                                                	<li>Select Image Size</li>
+                                                    <li>Thumbnail</li>
+                                                    <li>Medium</li>
+                                                    <li>Large</li>
+                                                </ul>
+                                            </li>
+                                            <li>Order by
+                                            	<ul>
+                                                	<li>Date - Ascending</li>
+                                                    <li>Date - Descending</li>
+                                                    <li>Popularity - Ascending</li>
+                                                    <li>Popularity - Ascending</li>
+                                                    <li>Random</li>
+                                                </ul>
+                                            </li>
+                                            <li>Link to
+                                            	<ul>
+                                                	<li>Instagram Image</li>
+                                                    <li>Instagram Profile</li>
+                                                    <li>Custom Link</li>
+                                                    <li>None</li>
+                                                </ul>
+                                            </li>
+                                            <li>Advanced Options
+                                            	<ul>
+                                                	<li>Image Link rel attribute</li>
+                                                    <li>Image Link class</li>
+                                                </ul>
+                                            </li>
+                                            <li>Advanced Slider Options
+                                            	<ul>
+                                                	<li>Slider Navigation Controls
+                                                    	<ul>
+                                                        	<li>Arrows & Dots</li>
+                                                            <li>Arrows</li>
+                                                            <li>Dotted</li>
+                                                            <li>No Navigation</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Number of words in caption</li>
+                                                    <li>Slider Text Description</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                    <hr>
+                                    <div class="col-md-4">
+                                    	<a href="images/04-5-1.jpg"><img src="images/04-5-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="col-md-8">
+                                    	<h3>Footer Instagram: Owl - Instagram Slider</h3>
+                                        <p>
+                                        Add Instagram to Footer Instagram Area and Setup this settings to your widget necessarily:
+                                        </p>
+                                        <ul>
+                                            <li>Number of images to show:  <strong>8</strong></li>
+                                            <li>Template:  <strong>Thumbnails - Without Border</strong></li>
+                                            <li>Number of Columns:  <strong>8</strong></li>
+                                        </ul>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-05 -->
+                               <hr>
+                               <section id="fourth-06">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-6.jpg"><img src="images/04-6.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - Latest Posts</h3>
+                                        <p>
+                                        Latest Posts Widget include this options:
+                                        <ul class="decimal">
+                                        	<li>Title</li>
+                                            <li>Filter by Category</li>
+                                            <li>Number of posts to show</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-06 -->
+                               <hr>
+                               <section id="fourth-07">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-7.jpg"><img src="images/04-7.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - Recent Tweets</h3>
+                                        <p>
+                                        <strong>Recent Tweets Widget Plugin Required</strong>
+                                        Recent Tweets Widget include this options:
+                                        <ul class="decimal">
+                                        	<li>Title</li>
+                                            <li>Consumer Key</li>
+                                            <li>Consumer Secret</li>
+                                            <li>Access Token</li>
+                                            <li>Access Token Secret</li>
+                                            <li>Cache Tweets in every</li>
+                                            <li>Twitter Username</li>
+                                            <li>Tweets to display</li>
+                                            <li>Exclude replies</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-07 -->
+                               <hr>
+                               <section id="fourth-08">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-8.jpg"><img src="images/04-8.jpg" alt=""></a>
+                                        <a href="images/04-8-1.jpg"><img src="images/04-8-1.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - Social Icons</h3>
+                                        <p>
+                                        Before you add this widget you should <strong class="color-text">fill full links to your social media profiles</strong> from <strong>Appearance <i class="fa fa-long-arrow-right"></i> Customize</strong> <i class="fa fa-long-arrow-right"></i> <strong>Social Media Settings</strong>
+                                        </p>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-08 -->
+                               <hr>
+                               <section id="fourth-09">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-9.jpg"><img src="images/04-9.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>Owl - Tag Cloud</h3>
+                                        <p>
+                                        Only add this widget to your favorite area and you will see Custom Popular Tags.
+                                        </p>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-09 -->
+                               <hr>
+                               <section id="fourth-10">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    	<a href="images/04-10.jpg"><img src="images/04-10.jpg" alt=""></a>
+                                        <a href="images/04-10-1.jpg"><img src="images/04-10-1.jpg" alt=""></a>
+                                    </div>
+                                    
+                                    <div class="col-md-8">
+                                    <h3>MailChimp Sign-Up Form</h3>
+                                        <p>
+                                        Add this to your MailChimp settings (<strong>MailChimp for WP</strong> <i class="fa fa-long-arrow-right"></i> <strong>Forms</strong> ):
+                                        <textarea class="textarea-code">
+<p>
+    <label>Get the <i>latest news</i> and <i>updates</i> from the website</label>
+    <input type="email" id="mc4wp_email" name="EMAIL" placeholder="Your email address" required />
+</p>
+
+<p>
+    <input type="submit" value="Subscribe" />
+</p>
+                                        </textarea>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-12">
+                                   		<a href="images/04-10-2.jpg"><img src="images/04-10-2.jpg" alt=""></a>
+                                    </div>
+                                </div><!--/.row -->
+                               </section><!--/ #fourth-10 -->
+                               
+                                
+                 </section><!--/ #fourth -->          
+                 
+                 <!-- =============================/ 5 /============================= -->
+                        
+
+					<section id="fifth">
+                    	
+                        <h1 class="title"><i class="fa fa-paint-brush"></i>Theme Customizer</h1>
+                        <p>All main settings for this theme can be set from the <strong>WP Theme Customizer.</strong> <br>
+                        Go to <strong>Appearance <i class="fa fa-long-arrow-right"></i> Customize</strong><br>
+                        
+                        
+                        <span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;If some settings works only in customizer, or options checked but function not appear, you need uncheck option and check it again.</span>
+                        </p>
+                        
+                        <a href="images/05-0.jpg"><img src="images/05-0.jpg" alt=""></a>
+                        <span class="highlight">!&nbsp;&nbsp;-&nbsp;&nbsp;When you are done making your changes, press the "Save & Publish" button in the top of the theme customizer. </span>
+                        
+                        <section id="fifth-01">
+                            <h2 class="title"><span>General Settings</span></h2>
+                                        <p>
+                                       	You can set this options here. 
+                                        <ul class="decimal">
+                                           <li>Upload your favicon</li>
+                                           <li>Choose Homepage Layout</li>
+                                           <li>Choose Homepage Content Type</li>
+                                           <li>Posts/Page Title Type</li>
+                                           <li>Homepage Excerpt Length (e.g: 120)</li>
+                                           <li>Homepage Read More Tag Text</li>
+                                           <li>Read More Text</li>
+                                           <li>Grid Layout: Heading</li>
+                                           <li>Grid Layout: Sub heading</li>
+                                           <li>Archive Layout</li>
+                                           <li>Enable Sticky Sidebar (Fixed)</li>
+                                           <li>Enable Sidebar on Homepage</li>
+                                           <li>Enable Sidebar on Posts</li>
+                                           <li>Enable Sidebar on Archives</li>
+                                           <li>On Top Button Text</li>
+                                        </ul>
+                                        
+                                        * - <strong>Homepage Read More Tag Text</strong> it's read more tag in post content, you can instert it via this button: <img src="images/05-2-1.jpg"  width="28" height="26" alt="">
+                                        </p>
+                            <a href="images/05-2.jpg"><img src="images/05-2.jpg" alt=""></a>
+                    	</section><!--/ #fifth-01 -->  
+                        
+                        <section id="fifth-02">
+                            <h2 class="title"><span>Logo and Header Settings</span></h2>
+                                        <p>
+                                       	You can set this options here. 
+                                        <ul class="decimal">
+                                           <li>Upload Logo</li>
+                                           <li>Upload Logo (Retina Version)</li>
+                                           <li>Top Header Padding (e.g: 50)</li>
+                                           <li>Bottom Header Padding (e.g: 50)</li>
+                                           <li>Header Logo Max Height (Auto)</li>
+                                        </ul>
+                                        
+                                        <span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;If you need full retina support you should install this plugin: <a href="https://wordpress.org/plugins/wp-retina-2x/" title="wp-retina-2x">WP Retina 2x</a> and add larged images for each uploaded image.</span>
+                                        </p>
+                            <a href="images/05-3.jpg"><img src="images/05-3.jpg" alt=""></a>
+                    	</section><!--/ #fifth-02 -->  
+                        
+                        <section id="fifth-03">
+                            <h2 class="title"><span>Top Bar Settings</span></h2>
+                                        <p>
+                                       	You can set this options here. 
+                                        <ul class="decimal">
+                                           <li>Disable Top Bar Social Icons</li>
+                                           <li>Disable Top Bar Search</li>
+                                        </ul>
+                                        </p>
+                            <a href="images/05-4.jpg"><img src="images/05-4.jpg" alt=""></a>
+                    	</section><!--/ #fifth-03 -->   
+                        
+                        <section id="fifth-04">
+                            <h2 class="title"><span>Featured Area Settings</span></h2>
+                                        <p>
+                                       	You can set this options here. 
+                                        <ul class="decimal">
+                                           <li>Enable/Disable Featured Slider</li>
+                                           <li>Featured Posts Layout</li>
+                                           <li>Select Featured Category</li>
+                                           <li>Hide/Show Featured Category</li>
+                                           <li>Amount of Slides</li>
+                                           <li>Hide/Show Border effect on Slider</li>
+                                           <li>Enable/Disable Static Border on Slider (on hover)</li>
+                                           <li>Hide/Show Zoom effect on Slider</li>
+                                        </ul>
+                                        </p>
+                            <a href="images/05-5.jpg"><img src="images/05-5.jpg" alt=""></a>
+                    	</section><!--/ #fifth-04 -->
+                        
+                        
+                         
+                    	<section id="fifth-05">
+                            <h2 class="title"><span>Author Area Settings</span></h2>
+                                        <p>
+                                       	Share a story of your life and give a chance to know you closer!
+                                        </p>
+                                        <p>
+                                       	You can set this options here. 
+                                        <ul class="decimal">
+                                           <li>Enable/Disable Author Area</li>
+                                           <li>Enable/Disable Author Area Social</li>
+                                           <li>Setup Author Name</li>
+                                           <li>Text About Author</li>
+                                           <li>Upload Author Section Avatar</li>
+                                           <li>Upload Author Section Background</li>
+                                        </ul>
+                                        </p>
+                    		<a href="images/05-1.jpg"><img src="images/05-1.jpg" alt=""></a>
+                    	</section><!--/ #fifth-05 -->  
+                        
+                        <section id="fifth-06">
+                            <h2 class="title"><span>Post Settings</span></h2>
+                                        <p>
+                                       	You can set this options here. 
+                                        <ul class="decimal">
+                                           <li>Hide/Show Border effect  </li>
+                                           <li>Hide/Show Popup Window  </li>
+                                           <li>Hide/Show Popup on Post Page  </li>
+                                           <li>Hide/Show Zoom effect  </li>
+                                           <li>Hide/Show Category  </li>
+                                           <li>Hide/Show Date  </li>
+                                           <li>Hide/Show Tags  </li>
+                                           <li>Hide/Show Share Buttons  </li>
+                                           <li>Hide/Show Likes  </li>
+                                           <li>Hide/Show Comments  </li>
+                                           <li>Hide/Show Author Box  </li>
+                                           <li>Hide/Show Related Posts Box</li>
+                                           <li>Hide/Show Featured Image from top of Post  </li>
+                                           <li>Hide/Show Next/Prev Post Navigation  </li>
+                                           <li>Enable/Disable uppercase in post title</li>
+                                           <li>Setup Post Hover Symbol (Unicode)</li>
+                                           <li>Setup Tags Area Title</li>
+                                           <li>Setup Related Area Title</li>
+                                        </ul>
+                                        </p>
+                            <a href="images/05-6.jpg"><img src="images/05-6.jpg" alt=""></a>
+                    	</section><!--/ #fifth-06 -->
+                        
+                        <section id="fifth-07">
+                            <h2 class="title"><span>Page Settings</span></h2>
+                                        <p>
+                                       	You can set this options here. 
+                                        <ul class="decimal">
+                                           <li>Hide/Show Border effect</li>
+                                           <li>Hide/Show Zoom effect</li>
+                                           <li>Hide/Show Popup</li>
+                                           <li>Hide/Show Popup on Tiled Galley Page</li>
+                                           <li>Hide/Show Comments</li>
+                                           <li>Hide/Show Share Buttons</li>
+                                        </ul>
+                                        </p>
+                            <a href="images/05-7.jpg"><img src="images/05-7.jpg" alt=""></a>
+                    	</section><!--/ #fifth-07 -->   
+                        
+                        <section id="fifth-08">
+                            <h2 class="title"><span>Social Media Settings</span></h2>
+                                        <p>
+                                       	Enter your social media links ( full url like: https://twitter.com/BBershadsky ).
+                                        Don't forget Show/Hide social media icons in Top Bar Settings and Footer Settings.
+                                        </p>
+                            <a href="images/05-8.jpg"><img src="images/05-8.jpg" alt=""></a>
+                    	</section><!--/ #fifth-08 -->   
+                        
+                        <section id="fifth-09">
+                            <h2 class="title"><span>Footer Settings</span></h2>
+                                        <p>
+                                       	You can set this options here. 
+                                        <ul class="decimal">
+                                        <li>Setup Most Discussed Area</li>
+                                       <li>Enable/Disable Footer Social</li>
+                                       <li>Enable/Disable Footer Widget Area</li>
+                                       <li>Enable/Disable Footer Logo Area</li>
+                                       <li>Upload Logo</li>
+                                       <li>Upload Logo (Retina Version)</li>
+                                       <li>Upload Footer Background Image</li>
+                                       <li>Footer Copyright Text</li>
+                                        </ul>
+                                        
+                                        <span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;Colors of footer logo BG and more you should set below, in colors settongs area.</span>
+                                        </p>
+                            <a href="images/05-9.jpg"><img src="images/05-9.jpg" alt=""></a>
+                    	</section><!--/ #fifth-09 -->  
+                        
+                        <section id="fifth-10">
+                            <h2 class="title"><span>Colors Settings</span></h2>
+                                        <p>
+                                       	You can set color options in this categories: 
+                                        <ul class="decimal">
+                                           <li>Colors: Top Bar</li>
+                                           <li>Colors: Footer</li>
+                                           <li>Colors: Sidebar</li>
+                                           <li>Colors: Posts</li>
+                                           <li>Colors: General</li>
+                                        </ul>
+                                        
+                                        <span class="highlight"><i class="fa fa-smile-o"></i>&nbsp;&nbsp;-&nbsp;&nbsp;All color settings are intuitive and easy to use.</span>
+                                        </p>
+                            <a href="images/05-10.jpg"><img src="images/05-10.jpg" alt=""></a>
+                    	</section><!--/ #fifth-10 --> 
+                        <!--
+                        <section id="fifth-11">
+                            <h2 class="title"><span>Custom CSS</span></h2>
+                                        <p>
+                                       	Add you custom CSS code here.	
+                                        </p>
+                            <a href="images/05-11.jpg"><img src="images/05-11.jpg" alt=""></a>
+                    	</section>--><!--/ #fifth-11 -->   
+                        
+                </section><!--/ #fifth -->   
+                
+                <!-- =============================/ 6 /============================= -->    
+                        
+
+				<section id="sixth">
+                		                   	
+                            <h1 class="title"><i class="fa fa-plug"></i>Insluded Plugins</h1>
+								<p>
+                                <span class="highlight"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;-&nbsp;&nbsp;All plugins included in theme and supported by their owners.</span><br>
+                                Browse the list below:
+                                </p>
+                                
+                                <br>
+                               <section id="sixth-01">
+                                <div class="panel panel-default license">
+                                
+                                  <!-- Default panel contents -->
+                                  <div class="panel-heading">All Plugins Included, Recommended and Required</div>                                
+                                  <!-- Table -->
+                                  <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th>#</th>
+                                        <th class="th-td-min-width">Name</th>
+                                        <th>Description</th>
+                                        <th>URL</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>1</td>
+                                        <td>Better Font Awesome</td>
+                                        <td>The Better Font Awesome plugin for WordPress. Shortcodes, HTML, TinyMCE, various Font Awesome versions, backwards compatibility, CDN speeds, and more.</td>
+                                        <td>https://wordpress.org/plugins/better-font-awesome/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>2</td>
+                                        <td>Column Shortcodes</td>
+                                        <td>Adds shortcodes to easily create columns in your posts or pages.
+
+Sometimes you just need to divide your page into different columns. With this plugin you just select a column shortcode and it will add the column to the page. You can also change the padding of each individual column from the UI.</td>
+                                        <td>https://wordpress.org/plugins/column-shortcodes/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>3</td>
+                                        <td>Contact Form 7</td>
+                                        <td>Contact Form 7 can manage multiple contact forms, plus you can customize the form and the mail contents flexibly with simple markup. The form supports Ajax-powered submitting, CAPTCHA, Akismet spam filtering and so on.</td>
+                                        <td>https://wordpress.org/plugins/contact-form-7/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>4</td>
+                                        <td>Drop Cap Shortcode</td>
+                                        <td>This plugin give you freedom to insert dropcap or not. Just change your first letters into a shortcode. Example: [T]his is my paragraph with a drop cap. The first letter 'T' will turn into a drop cap.</td>
+                                        <td>https://wordpress.org/plugins/drop-cap-shortcode/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>5</td>
+                                        <td>Google Maps Builder</td>
+                                        <td>Google Maps Builder isn't just another Google Maps plugin. It's built from the ground up to be the easiest, most intuitive and fastest Google Maps plugin for WordPress. Visually build powerful customized Google Maps to use on your WordPress site quickly and easily without ever having to touch a bit of code.</td>
+                                        <td>https://wordpress.org/plugins/google-maps-builder/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>6</td>
+                                        <td>MailChimp for WordPress Lite</td>
+                                        <td>Lite version of MailChimp for WordPress. Adds various sign-up methods to your website.</td>
+                                        <td>https://wordpress.org/plugins/mailchimp-for-wp/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>7</td>
+                                        <td>Owl Instagram Widget</td>
+                                        <td>Based on: <a href="https://wordpress.org/plugins/instagram-slider-widget/" title="Instagram Slider Widget">Instagram Slider Widget</a></td>
+                                        <td>Own repository</td>
+                                      </tr>
+                                      <tr>
+                                        <td>8</td>
+                                        <td>Recent Tweets Widget</td>
+                                        <td>Recent Tweets Widget plugin for Twitter API v1.1 with Cache. It uses the new Twitter API v1.1 and stores tweets in the cache. It means that it will read status messages from your database and it doesn't query Twitter.com for every page load so you won't be rate limited. You can set how often you want to update the cache.</td>
+                                        <td>https://wordpress.org/plugins/recent-tweets-widget/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>9</td>
+                                        <td>Simple Custom Post Order</td>
+                                        <td>Order Items (Posts, Pages, and Custom Post Types) using a Drag and Drop Sortable JavaScript.</td>
+                                        <td>https://wordpress.org/plugins/simple-custom-post-order/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>10</td>
+                                        <td>Tiled Galleries</td>
+                                        <td>Based on: <a href="https://wordpress.org/plugins/jetpack/" title="Instagram Slider Widget">JetPack</a></td>
+                                        <td>Own repository</td>
+                                      </tr>
+                                      <tr>
+                                        <td>11</td>
+                                        <td>Vafpress Post Formats UI</td>
+                                        <td>Custom post format admin UI</td>
+                                        <td>http://vafpress.com/</td>
+                                      </tr>
+                                      
+                                    </tbody>
+                                  </table>
+                                  </div>
+                            </section><!--/ #sixth-01 -->
+                            
+                            <section id="sixth-02">
+                            <h2 class="title"><span>Useful plugins (not included)</span></h2>
+                                        <div class="panel panel-default license">
+                                
+                                  <!-- Default panel contents -->
+                                  <div class="panel-heading">Use this plugins if you need more</div>                                
+                                  <!-- Table -->
+                                  <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th>#</th>
+                                        <th class="th-td-min-width">Name</th>
+                                        <th>Description</th>
+                                        <th>URL</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>1</td>
+                                        <td>WP Retina 2x</td>
+                                        <td>This plugin creates the image files required by the Retina (High DPI) devices and displays them to your visitors accordingly. Your website will look beautiful and crisp on every device! The retina images will be generated for you automatically - though you can also do it manually - and served to the retina devices.</td>
+                                        <td>https://wordpress.org/plugins/wp-retina-2x/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>2</td>
+                                        <td>MailChimp for WordPress</td>
+                                        <td>MailChimp for WordPress - Adding sign-up methods for your MailChimp lists to your WordPress site should be easy. With this MailChimp for WordPress, it finally is.</td>
+                                        <td>https://wordpress.org/plugins/mailchimp-for-wp/</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  </div>
+                    	</section><!--/ #sixth-02 -->  
+                            
+                 </section><!--/ #sixth -->    
+                 
+                 <!-- =============================/ 7 /============================= --> 
+                 
+                 <section id="seventh">
+                    	
+                            <h1 class="title"><i class="fa fa-toggle-on"></i>Child Theme</h1>
+                           
+  				
+                            <p>
+                            This theme has <strong>Child Theme</strong> support to customize theme without any losses from the main theme.
+                            </p>
+                                    
+                       
+                                                <p>
+                                                If you want to make modifications on this theme, it is recommended to use a child theme. <br>
+                                                This theme comes with a blank child theme that you can use. In the theme package you can find "owl-child" folder. <br>
+                                                Upload this folder to your <strong>wp-content/themes folder,</strong> and activate it from the <strong>Appearance <i class="fa fa-long-arrow-right"></i> Themes</strong>. Once activated, you can start editing inside this "owl-child" folder. 
+                                                <br>
+                                                <br>This child theme includes 2 files that you can use to override parent theme's style (style.css) and function (functions.php). By using child theme, you will leave the parent theme unmodified, so when a theme update is available, you can simply replace the parent theme without worry about your modified code. For more info about using child themes, please visit this link: <a href="http://codex.wordpress.org/Child_Themes">http://codex.wordpress.org/Child_Themes</a>
+                                                </p>
+                                                
+               
+                        </section> <!--/ #seventh -->  
+                        
+                 <!-- =============================/ 8 /============================= --> 
+                 
+                 <section id="eighth">
+                    	
+                            <h1 class="title"><i class="fa fa-language"></i>Language Files (MO/PO)</h1>
+                           
+  						
+                            <p>
+                            This theme has <strong>MO/PO Files</strong> support to create your native language files with <a href="https://poedit.net/" title="MO/PO Editor">MO/PO Editor</a>.
+                            <br>
+                            <br>
+                            Default Language files included in <strong>/languages</strong> folder.
+                            </p>
+                                                
+               
+                </eighth> <!--/ #seighth -->  
+                          
+                 <!-- =============================/ 9 /============================= -->    
+                        
+
+						<section id="ninth">
+                    	
+                            <h1 class="title"><i class="fa fa-folder"></i>Sources & Credits</h1>
+								<p>
+                                Resources that are used in the owl theme in the free source (Licensed under MIT). <br>
+                                Browse through the list below:
+                                </p>
+                                
+                                <br>
+                               <section id="ninth-01">
+                                <div class="panel panel-default license">
+                                
+                                  <!-- Default panel contents -->
+                                  <div class="panel-heading">Sources & Credits Table</div>                                
+                                  <!-- Table -->
+                                  <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th>#</th>
+                                        <th class="th-td-min-width">Name</th>
+                                        <th>Description</th>
+                                        <th>URL</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>1</td>
+                                        <td>FontAwesome</td>
+                                        <td>Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.</td>
+                                        <td>http://fontawesome.io</td>
+                                      </tr>
+                                      <tr>
+                                        <td>2</td>
+                                        <td>WordPress-Post-Like-System</td>
+                                        <td>A simple and efficient post like system for WordPress.</td>
+                                        <td>https://github.com/JonMasterson/WordPress-Post-Like-System</td>
+                                      </tr>
+                                      <tr>
+                                        <td>3</td>
+                                        <td>OwlSlider 2</td>
+                                        <td>Touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider.</td>
+                                        <td>http://www.owlcarousel.owlgraphic.com/</td>
+                                      </tr>
+                                      
+                                      <tr>
+                                        <td>4</td>
+                                        <td>jQuery, jQuery Easing</td>
+                                        <td>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</td>
+                                        <td>http://gsgd.co.uk/sandbox/jquery/easing/<br>
+                                            http://jquery.com/
+                                            </td>
+                                      </tr>
+                                      <tr>
+                                        <td>5</td>
+                                        <td>Masonry</td>
+                                        <td>Masonry is a JavaScript grid layout library. It works by placing elements in optimal position based on available vertical space, sort of like a mason fitting stones in a wall. You’ve probably seen it in use all over the Internet.</td>
+                                        <td>http://masonry.desandro.com/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>6</td>
+                                        <td>TGM Plugin Activation</td>
+                                        <td>TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins). </td>
+                                        <td>http://tgmpluginactivation.com/</td>
+                                      </tr>
+                                      <tr>
+                                      <tr>
+                                        <td>7</td>
+                                        <td>Images</td>
+                                        <td>All images for preview purpose only.</td>
+                                        <td>http://thestocks.im/</td>
+                                      </tr>
+                                      <tr>
+                                        <td>8</td>
+                                        <td>Plugins from <a href="#sixth-01" class="scroll">Included Plugins category</a></td>
+                                        <td>All images for preview purpose only.</td>
+                                        <td>http://thestocks.im/</td>
+                                      </tr>
+                                      
+                                      
+                                      
+                                    </tbody>
+                                  </table>
+                                    </div>
+                                    
+                            
+                            </section><!--/ #ninth-01 -->   
+                            
+                            
+                            
+                            <section id="ninth-02">
+                        
+                                <h2 class="title"><span>Note (Thank you!)</span></h2><br>
+                              	
+                                <h1 class="text-center color-text"><strong>Thank you for your purchase!</strong></h1><br>
+                                <p class="text-center">
+                                Thanks for reading the Instruction, hope it’s been really helpful and resolved most of your concerns. <br>
+                                If you still have questions, please contact me by <a href="http://themeforest.net/user/wwwebinvader">contact form on my profile</a>
+                                <br>
+                                <br>
+                                <strong><a href="http://themeforest.net/user/wwwebinvader/follow">Follow me here</a></strong> to know about my accomplishments, you may need a few <strong>WP themes</strong> or <strong>HTML, PSD templates!</strong><br><br>
+                                </p>
+                                
+                                <h2 class="color-text text-center"><strong>Put 5 star rating <a href="http://themeforest.net/downloads">here</a>, please!</strong>
+                                <br><br>
+                                <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                </h2><br>
+                                <p class="text-center">
+                                <span class="color-text">*</span> - Under the button "download", there are stars of rating, <strong class="color-text">light all 5 five!</strong>
+                                </p>
+                               <p class="text-center">
+                           
+                     	       </p>
+                               
+                        </section><!--/ #ninth-02 -->   
+                            
+                            
+                            
+                       </section><!--/ #ninth -->   
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    
+    <!-- Dropmenu JavaScript -->
+    <script src="js/metismenu.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- JS Activate -->
+    <script>
+	
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+	$('.menu-button').click(function() {
+	  var clicks = $(this).data('clicks');
+	  if (clicks) {
+	
+	
+		   $('.menu-button').css('margin-left', '-48px');
+		   	
+	
+	  } else {
+	
+		   $('.menu-button').css('margin-left', '0px');
+	  }
+	  $(this).data("clicks", !clicks);
+	});
+
+	/* scroll menu */
+			
+	var sections = $('section')
+	  , nav = $('nav')
+	  , nav_height = nav.outerHeight();
+	 
+	$(window).on('scroll', function () {
+	  var cur_pos = $(this).scrollTop();
+	 
+	  sections.each(function() {
+		var top = $(this).offset().top - nav_height,
+			bottom = top + $(this).outerHeight();
+	 
+		if (cur_pos >= top && cur_pos <= bottom) {
+		  nav.find('a').removeClass('active');
+		  sections.removeClass('active');
+	 
+		  $(this).addClass('active');
+		  nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+		}
+	  });
+	});
+	
+	nav.find('a').on('click', function () {
+	  var $el = $(this)
+		, id = $el.attr('href');
+	 
+	  $('html, body').animate({
+		scrollTop: $(id).offset().top - nav_height
+	  }, 700);
+	 
+	  return false;
+	});
+
+	
+	
+	/* dropmenu */
+		
+	$(function() {
+	
+		$('.sidebar-nav').metisMenu();
+	
+	});
+	
+	
+	/* link scroll */
+	
+	$("a.scroll").click(function () {
+	  var $el = $(this)
+		, id = $el.attr('href');
+	 
+	  $('html, body').animate({
+		scrollTop: $(id).offset().top - nav_height
+	  }, 700);
+	 
+	  return false;
+	});
+
+	
+
+    </script>
+
+</body>
+
+</html>

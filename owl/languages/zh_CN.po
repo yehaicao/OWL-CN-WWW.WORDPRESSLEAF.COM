@@ -1,0 +1,663 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Owl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-07 20:51+0700\n"
+"PO-Revision-Date: 2016-11-01 18:34+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:8
+msgid "The page you are looking for has not been found."
+msgstr "没有发现您正在寻找的页面。"
+
+#: ../archive.php:7
+msgid "<span>Daily Archives</span>"
+msgstr "<span>每日存档</span>"
+
+#: ../archive.php:11
+msgid "<span>Monthly Archives</span>"
+msgstr "<span>每月存档</span>"
+
+#: ../archive.php15
+msgid "<span>Yearly Archives</span>"
+msgstr "<span>每年存档</span>"
+
+#: ../archive.php:19
+msgid "<h1>Archives</h1>"
+msgstr "<h1>存档文章</h1>"
+
+#: ../author.php:5
+msgid "All Posts By"
+msgstr "全部文章作者为"
+
+#: ../category.php:5
+msgid "Posts in Category"
+msgstr "分类文章"
+
+#: ../functions.php:253
+msgid "Comment awaiting approval"
+msgstr "评论等待审核"
+
+#: ../functions.php:521
+msgid "Gallery Type"
+msgstr "画廊类型"
+
+#: ../inc/additions/post-like.php:219 ../inc/additions/post-like.php:270
+#, php-format
+msgid "You Like:"
+msgstr "你喜欢："
+
+#: ../inc/additions/post-like.php:243
+msgid "You don't like anything yet."
+msgstr "你还不喜欢任何东西。"
+
+#: ../inc/additions/post-like.php:309
+msgid "Today's Most Popular Posts"
+msgstr "今天最受欢迎的文章"
+
+#: ../inc/additions/post-like.php:348
+msgid "This Month's Most Popular Posts"
+msgstr "本月最受欢迎的文章"
+
+#: ../inc/additions/post-like.php:406
+msgid "This Week's Most Popular Posts"
+msgstr "本周最受欢迎的文章"
+
+#: ../inc/templates/post_pagination.php:15
+msgid "Prev Post"
+msgstr "上一篇文章"
+
+#: ../inc/templates/post_pagination.php:29
+msgid "Next Post"
+msgstr "下一篇文章"
+
+#: ../inc/widgets/flickr_widget.php:125
+msgid "Title"
+msgstr "标题"
+
+#: ../inc/widgets/flickr_widget.php:129
+msgid "Flickr ID"
+msgstr "Flickr的ID"
+
+#: ../inc/widgets/flickr_widget.php:129
+msgid "What's my Flickr ID?"
+msgstr "我的FlickrID是什么？"
+
+#: ../inc/widgets/flickr_widget.php:131
+msgid "Example ID: 23100287@N07"
+msgstr "示例ID：23100287@N07"
+
+#: ../inc/widgets/flickr_widget.php:134
+msgid "Number of photos"
+msgstr "照片数量"
+
+#: ../inc/widgets/flickr_widget.php:139
+msgid "Thumbnail width"
+msgstr "缩略图宽度"
+
+#: ../inc/widgets/flickr_widget.php:144
+msgid "Thumbnail height"
+msgstr "缩略图的高度"
+
+#: ../inc/widgets/popular_tags_widget.php:36 ../inc/widgets/post_widget.php:109
+msgid "Title:"
+msgstr "标题："
+
+#: ../inc/widgets/post_widget.php:127
+msgid "Number of posts to show:"
+msgstr "显示的文章数量："
+
+#: ../search.php:6 ../search.php:60
+msgid "Search results for"
+msgstr "搜索结果"
+
+#: ../search.php:69
+msgid "Sorry, no posts were found. Try searching for something else."
+msgstr "对不起，没有发现文章。尝试寻找别的关键词。"
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr "搜索"
+
+#: ../tag.php:5
+msgid "Browsing Tag"
+msgstr "浏览标签"
+
+#: ../archive.php:8 ../archive.php:12 ../archive.php:16
+#, php-format
+msgid "<h1>%s</h1>"
+msgstr ""
+
+#: ../category.php:6 ../search.php:7 ../search.php:61 ../tag.php:6
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:270
+#, php-format
+msgid "Install Required Plugins"
+msgstr "安装需要的插件"
+
+#: ../class-tgm-plugin-activation.php:271
+#, php-format
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#: ../class-tgm-plugin-activation.php:272
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "安装插件： %s"
+
+#: ../class-tgm-plugin-activation.php:273
+#, php-format
+msgid "Something went wrong with the plugin API."
+msgstr "插件的API发生错误。"
+
+#: ../class-tgm-plugin-activation.php:334
+#, php-format
+msgid "Return to Required Plugins Installer"
+msgstr "返回到所需的插件安装"
+
+#: ../class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Return to the dashboard"
+msgstr "返回仪表板"
+
+#: ../class-tgm-plugin-activation.php:336
+#: ../class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: ../class-tgm-plugin-activation.php:337
+#, php-format
+msgid "The following plugin was activated successfully:"
+msgstr "下面的插件已被成功激活："
+
+#: ../class-tgm-plugin-activation.php:338
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "没有执行动作。插件 %1$s 已经是激活的。"
+
+#: ../class-tgm-plugin-activation.php:339
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr "插件没有激活。这个主题需要一个更高版本的%s。请更新插件。"
+
+#: ../class-tgm-plugin-activation.php:340
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有的插件都成功地安装和激活。%1$s"
+
+#: ../class-tgm-plugin-activation.php:341
+#, php-format
+msgid "Dismiss this notice"
+msgstr "取消这个通知"
+
+#: ../class-tgm-plugin-activation.php:342
+#, php-format
+msgid "Please contact the administrator of this site for help."
+msgstr "请与本网站的管理员联系以寻求帮助。"
+
+#: ../class-tgm-plugin-activation.php:440
+#, php-format
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "这个插件需要更新，以便能兼容你的主题。"
+
+#: ../class-tgm-plugin-activation.php:441
+#, php-format
+msgid "Update Required"
+msgstr "需要更新"
+
+#: ../class-tgm-plugin-activation.php:541
+#, php-format
+msgid "Set the parent_slug config variable instead."
+msgstr "设置parent_slug配置变量来代替。"
+
+#: ../class-tgm-plugin-activation.php:704
+#: ../class-tgm-plugin-activation.php:2955
+#, php-format
+msgid "Return to the Dashboard"
+msgstr "返回仪表板"
+
+#: ../class-tgm-plugin-activation.php:796
+#, php-format
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "远程插件包不包含所需的slug文件夹，重命名不工作。"
+
+#: ../class-tgm-plugin-activation.php:796
+#: ../class-tgm-plugin-activation.php:799
+#, php-format
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr "请联系插件提供商，请他们根据WordPress的指南来打包自己的插件。"
+
+#: ../class-tgm-plugin-activation.php:799
+#, php-format
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr "远程插件包由多个文件组成，但这些文件没有打包在一个文件夹中。"
+
+#: ../class-tgm-plugin-activation.php:1887
+#, php-format
+msgid "Required"
+msgstr "必须的"
+
+#: ../class-tgm-plugin-activation.php:1889
+#, php-format
+msgid "Recommended"
+msgstr "推荐"
+
+#: ../class-tgm-plugin-activation.php:1904
+#, php-format
+msgid "WordPress Repository"
+msgstr "WordPress的版本库"
+
+#: ../class-tgm-plugin-activation.php:1907
+#, php-format
+msgid "External Source"
+msgstr "外部源"
+
+#: ../class-tgm-plugin-activation.php:1910
+#, php-format
+msgid "Pre-Packaged"
+msgstr "预先打包"
+
+#: ../class-tgm-plugin-activation.php:1926
+#, php-format
+msgid "Not Installed"
+msgstr "没有安装"
+
+#: ../class-tgm-plugin-activation.php:1929
+#, php-format
+msgid "Installed But Not Activated"
+msgstr "已安装但未激活"
+
+#: ../class-tgm-plugin-activation.php:1931
+#, php-format
+msgid "Active"
+msgstr "激活"
+
+#: ../class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Required Update not Available"
+msgstr "所需的更新不可用"
+
+#: ../class-tgm-plugin-activation.php:1937
+#, php-format
+msgid "Requires Update"
+msgstr "需要更新"
+
+#: ../class-tgm-plugin-activation.php:1939
+#, php-format
+msgid "Update recommended"
+msgstr "更新推荐"
+
+#: ../class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "Installed version:"
+msgstr "安装的版本："
+
+#: ../class-tgm-plugin-activation.php:2084
+#, php-format
+msgid "Minimum required version:"
+msgstr "最低要求版本："
+
+#: ../class-tgm-plugin-activation.php:2094
+#, php-format
+msgid "Available version:"
+msgstr "可用的版本："
+
+#: ../class-tgm-plugin-activation.php:2115
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr "没有插件安装、更新或激活。<a href=\"%1$s\">返回仪表板</a>"
+
+#: ../class-tgm-plugin-activation.php:2128
+#, php-format
+msgid "Plugin"
+msgstr "插件"
+
+#: ../class-tgm-plugin-activation.php:2129
+#, php-format
+msgid "Source"
+msgstr "源"
+
+#: ../class-tgm-plugin-activation.php:2130
+#, php-format
+msgid "Type"
+msgstr "类型"
+
+#: ../class-tgm-plugin-activation.php:2133
+#, php-format
+msgid "Version"
+msgstr "版本"
+
+#: ../class-tgm-plugin-activation.php:2134
+#, php-format
+msgid "Status"
+msgstr "状态"
+
+#: ../class-tgm-plugin-activation.php:2248
+#, php-format
+msgid "Upgrade message from the plugin author:"
+msgstr "插件作者的升级消息："
+
+#: ../class-tgm-plugin-activation.php:2277
+#, php-format
+msgid "Install"
+msgstr "安装"
+
+#: ../class-tgm-plugin-activation.php:2282
+#, php-format
+msgid "Update"
+msgstr "更新"
+
+#: ../class-tgm-plugin-activation.php:2285
+#, php-format
+msgid "Activate"
+msgstr "激活"
+
+#: ../class-tgm-plugin-activation.php:2310
+#, php-format
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "没有选择要安装的插件。没有执行动作。"
+
+#: ../class-tgm-plugin-activation.php:2312
+#, php-format
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "没有选择要更新的插件。没有执行动作。"
+
+#: ../class-tgm-plugin-activation.php:2341
+#, php-format
+msgid "No plugins are available to be installed at this time."
+msgstr "在这个时候，没有插件可以安装。"
+
+#: ../class-tgm-plugin-activation.php:2343
+#, php-format
+msgid "No plugins are available to be updated at this time."
+msgstr "在这个时候，没有插件可以更新。"
+
+#: ../class-tgm-plugin-activation.php:2423
+#, php-format
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "没有选择要激活的插件。没有执行动作。"
+
+#: ../class-tgm-plugin-activation.php:2444
+#, php-format
+msgid "No plugins are available to be activated at this time."
+msgstr "在这个时候，没有插件可以激活。"
+
+#: ../class-tgm-plugin-activation.php:2607
+#, php-format
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#: ../class-tgm-plugin-activation.php:2888
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "更新插件%1$s (%2$d/%3$d)"
+
+#: ../class-tgm-plugin-activation.php:2890
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装 %1$s: <strong>%2$s</strong>时发生错误。"
+
+#: ../class-tgm-plugin-activation.php:2891
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s 的安装失败。"
+
+#: ../class-tgm-plugin-activation.php:2894
+#, php-format
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"安装和激活过程正在启动。在一些主机上，这个过程可能需要一段时间，所以请耐心等"
+"待。"
+
+#: ../class-tgm-plugin-activation.php:2895
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s安装和激活成功。"
+
+#: ../class-tgm-plugin-activation.php:2895
+#: ../class-tgm-plugin-activation.php:2901
+#, php-format
+msgid "Show Details"
+msgstr "显示详细信息"
+
+#: ../class-tgm-plugin-activation.php:2895
+#: ../class-tgm-plugin-activation.php:2901
+#, php-format
+msgid "Hide Details"
+msgstr "隐藏详细信息"
+
+#: ../class-tgm-plugin-activation.php:2896
+#, php-format
+msgid "All installations and activations have been completed."
+msgstr "所有的安装和激活已完成。"
+
+#: ../class-tgm-plugin-activation.php:2897
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "安装和激活插件%1$s (%2$d/%3$d)"
+
+#: ../class-tgm-plugin-activation.php:2900
+#, php-format
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"安装过程正在启动。在一些主机上，这个过程可能需要一段时间，所以请耐心等待。"
+
+#: ../class-tgm-plugin-activation.php:2901
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s安装成功。"
+
+#: ../class-tgm-plugin-activation.php:2902
+#, php-format
+msgid "All installations have been completed."
+msgstr "所有安装已完成。"
+
+#: ../class-tgm-plugin-activation.php:2903
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "安装插件%1$s (%2$d/%3$d)"
+
+#: ../comments.php:6
+#, php-format
+msgid "No Comments"
+msgstr "没有评论"
+
+#: ../comments.php:6
+#, php-format
+msgid "1 Comment"
+msgstr "一条评论"
+
+#: ../comments.php:6
+#, php-format
+msgid "Comments"
+msgstr "评论"
+
+#: ../comments.php:26
+#, php-format
+msgid "Your Message"
+msgstr "你的消息"
+
+#: ../comments.php:33
+#, php-format
+msgid "Leave a Reply"
+msgstr "留下回复"
+
+#: ../comments.php:34
+#, php-format
+msgid "Cancel Reply"
+msgstr "取消回复"
+
+#: ../comments.php:35
+#, php-format
+msgid "Post Comment"
+msgstr "文章评论"
+
+#: ../content-grid.php:31 ../content-grid.php:33 ../content-masonry.php:30
+#: ../content-masonry.php:33 ../content.php:19 ../content.php:21
+#: ../content.php:235 ../content.php:237 ../footer.php:24
+#: ../inc/featured_area/alternative-slider.php:28
+#: ../inc/featured_area/featured-one-slide.php:27
+#: ../inc/featured_area/featured-three-slides.php:26
+#, php-format
+msgid "and, from"
+msgstr "和, 来自"
+
+#: ../content-masonry.php:52 ../content-page.php:37 ../content.php:273
+#, php-format
+msgid "Share "
+msgstr "分享"
+
+#: ../content-page.php:45
+#, php-format
+msgid "or "
+msgstr "或"
+
+#: ../content-page.php:45
+#, php-format
+msgid "Comment"
+msgstr "评论"
+
+#: ../functions/customizer/wi_custom_controller.php:60
+#, php-format
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash;  选择 &mdash;"
+
+#: ../functions.php:192
+#, php-format
+msgid "Older Posts <i class=\"fa fa-long-arrow-right\"></i>"
+msgstr "旧文章 <i class=\"fa fa-long-arrow-right\"></i>"
+
+#: ../functions.php:193
+#, php-format
+msgid "<i class=\"fa fa-long-arrow-left\"></i> Newer Posts"
+msgstr "<i class=\"fa fa-long-arrow-left\"></i> 新文章"
+
+#: ../functions.php:212
+#, php-format
+msgid "<i class=\"fa fa-long-arrow-left\"></i>"
+msgstr ""
+
+#: ../functions.php:213
+#, php-format
+msgid "<i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#: ../functions.php:247
+#, php-format
+msgid "Reply"
+msgstr "回复"
+
+#: ../functions.php:248
+#, php-format
+msgid "Edit"
+msgstr "编辑"
+
+#: ../functions.php:251
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s "
+
+#: ../functions.php:463 ../functions.php:466 ../functions.php:476
+#: ../functions.php:479
+#, php-format
+msgid "View all posts in %s"
+msgstr "查看 %s 的所有文章"
+
+#: ../functions.php:81
+#, php-format
+msgid "Page %s"
+msgstr "%s 页"
+
+#: ../inc/widgets/about_widget.php:19
+#, php-format
+msgid "A widget that displays an About widget"
+msgstr "显示一个“关于”的小工具"
+
+#: ../inc/widgets/about_widget.php:25
+#, php-format
+msgid "Owl - About Me"
+msgstr "Owl - 关于我"
+
+#: ../inc/widgets/facebook_widget.php:19
+#, php-format
+msgid "A widget that displays a Facebook Like Box"
+msgstr "显示脸谱网点赞框（Facebook Like）的小工具"
+
+#: ../inc/widgets/facebook_widget.php:25
+#, php-format
+msgid "Owl - Facebook Like Box"
+msgstr "Owl - 脸谱网点赞框"
+
+#: ../inc/widgets/flickr_widget.php:18
+#, php-format
+msgid "Display your Flickr photostream"
+msgstr "展示你的Flickr照片"
+
+#: ../inc/widgets/flickr_widget.php:20
+#, php-format
+msgid "Owl - Flickr"
+msgstr "Owl - Flickr"
+
+#: ../inc/widgets/popular_tags_widget.php:5
+#, php-format
+msgid "Add most used tags to Widget Area"
+msgstr "添加最常用的标签到小工具区域"
+
+#: ../inc/widgets/popular_tags_widget.php:6
+#, php-format
+msgid "Owl - Tag Cloud"
+msgstr "Owl - 标签云"
+
+#: ../inc/widgets/post_widget.php:19
+#, php-format
+msgid ""
+"A widget that displays your latest posts from all categories or a certain"
+msgstr "显示你全部分类或某一分类的最新文章的小工具"
+
+#: ../inc/widgets/post_widget.php:25
+#, php-format
+msgid "Owl - Latest Posts"
+msgstr "Owl - 最新文章"
+
+#: ../inc/widgets/post_widget.php:104
+#, php-format
+msgid "Latest Posts"
+msgstr "最新文章"
+
+#: ../inc/widgets/social_widget.php:19
+#, php-format
+msgid "A widget that displays your social icons"
+msgstr "显示你的社交图标的小工具"
+
+#: ../inc/widgets/social_widget.php:25
+#, php-format
+msgid "Owl - Social Icons"
+msgstr "Owl - 社交图标"
