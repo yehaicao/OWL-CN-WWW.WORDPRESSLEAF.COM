@@ -11,7 +11,7 @@ WordPress主题OWL中文版是一款简约、精致、设计感很强的主题�
 你可以访问我们[**WordPress主题OWL中文版**](https://github.com/yehaicao/OWL-CN-WWW.WORDPRESSLEAF.COM)项目获取源代码，仅供学习使用。
 
 ## 演示地址
-> [**观看演示**](http://www.wordpressleaf.com/)
+> [**观看演示**](http://www.wordpressleaf.com/2016_1070.html)
 
 
 ## 汉化
