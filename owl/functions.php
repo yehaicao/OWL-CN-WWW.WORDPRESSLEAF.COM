@@ -687,7 +687,7 @@ if (!function_exists('winvader_replace_words')) {
 
 if (!function_exists('winvader_title_first_letter')) {
 	function winvader_title_first_letter($str) {
-	$str = substr($str, 0, 1);
+	$str = mb_substr($str, 0, 1);
 	return $str;	
 	}
 }
